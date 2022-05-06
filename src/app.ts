@@ -6,7 +6,7 @@ import { getModel } from "./number-recognition/model";
 import { showExamples } from "./number-recognition/visualization";
 import { HandDrawnNumberApp } from "./HandDrawnNumberApp";
 
-document.addEventListener("DOMContentLoaded", run);
+// document.addEventListener("DOMContentLoaded", run);
 ReactDOM.render(
   createElement(HandDrawnNumberApp),
   document.getElementById("app")
