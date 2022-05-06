@@ -1,0 +1,27 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@3.2.0",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "@types/prettier": "^2",
+    "@types/react": "^17.0.44",
+    "@types/react-dom": "^17.0.15",
+    "buffer": "^6.0.3",
+    "parcel": "^2.5.0",
+    "prettier": "^2.6.2",
+    "process": "^0.11.10",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.16.0",
+    "@tensorflow/tfjs-vis": "^1.5.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
