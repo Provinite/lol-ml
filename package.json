@@ -6,7 +6,8 @@
   "packageManager": "yarn@3.2.0",
   "scripts": {
     "start": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./"
+    "build": "parcel build src/index.html --public-url ./",
+    "clean": "rm -rf ./dist/*"
   },
   "devDependencies": {
     "@types/prettier": "^2",
